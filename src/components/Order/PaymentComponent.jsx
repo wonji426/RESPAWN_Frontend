@@ -99,7 +99,7 @@ const PaymentComponent = ({ orderInfo, onPaymentComplete, onClose }) => {
             buyer_name: buyerInfo.name,
             buyer_email: buyerInfo.email,
             buyer_tel: buyerInfo.phone,
-            m_redirect_url: `https://respawnstore.shop/payments/mobile/callback?temporaryId=${temporaryId}`,
+            m_redirect_url: `https://respawnshop.shop/payments/mobile/callback?temporaryId=${temporaryId}`,
           },
           async (response) => {
             if (response.success) {
